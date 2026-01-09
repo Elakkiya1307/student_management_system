@@ -1,0 +1,57 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+.header {
+  background-color: skyblue;
+  line-height: 70px;
+  padding-left:30px;
+} 
+
+a,a:hover {
+  text-decoration: none!important;
+  color: white !important;
+}
+/* 
+body header a,a:hover {
+color:white;
+
+} */
+
+
+.log_out {
+   float:right;     /*used to change the log out button in right of the nav bar*/
+   padding-right: 30px;
+}
+
+ul {
+  background-color:#424a5b;
+  width:16%;
+  height:100%;
+  position:fixed;
+  padding-top:5%;
+  text-align: center;
+}
+
+ul li{
+  padding-bottom: 30px;
+  font-weight: bold;
+  list-style:none;
+ 
+}
+ul li a {
+  color:white;
+}
+
+ul li a:hover{   
+  color: skyblue !important;;
+  text-decoration: none;
+}
+
+.content {
+  text-align:center;
+  padding-top:20px;
+}
+
+ 
